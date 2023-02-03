@@ -1,0 +1,45 @@
+:root {
+    --darkRed:#BB2D3B;
+}
+
+body {
+    background-image: url("https://img3.goodfon.com/wallpaper/nbig/c/c9/priroda-derevo-derevya-listya-1807.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero {
+ height: calc(100vh - 62px);
+}
+
+.nav-item a {
+    transition: all .7s;
+    font-size: 1.05rem;
+}
+
+.nav-item:hover a{
+    color: var(--darkRed) !important;
+    text-shadow: .2px .2px 2px var(--darkRed)
+}
+
+.hero h1 {
+    font-size: 3.5rem !important;
+}
+
+.hero p {
+    font-size: 2rem !important;
+    text-align: center !important;
+}
+
+.hero button {
+    font-size: 1.5rem !important;
+    background-color: var(--darkRed);
+    border: none !important;
+    transition: transform .7s;
+}
+
+.hero button:hover {
+    transform: scale(.95);
+}
